@@ -1,6 +1,6 @@
 Algoritmo "idade Atleta"
-// Disciplna   : [Linguagem e LÛgica de ProgramaÁ„o]
-// Autor: Bruno
+// Disciplna   : [Linguagem e L√≥gica de Programa√ß√£o]
+// Autor: carlos neiva
 
 Var
 idade :inteiro
@@ -27,7 +27,7 @@ Limpatela
    Caso 18 ATE 100
       ESCREVAL("Senior")
    OUTROCASO
-   escreva(" --->  N„o a nenhum escal„o com essa idade")
+   escreva(" --->  N√£o a nenhum escal√£o com essa idade")
    fimescolha
    Leia (x)
    fimenquanto
