@@ -1,17 +1,17 @@
 Algoritmo "TESTA_CASO2"
-// Disciplna   : [Linguagem e Lógica de Programação] 
-// Professor   : Antonio Carlos Nicolodi 
+// Disciplna   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o] 
+// autor: Carlos Neiva
 
 Var
-   // Seção de Declarações das variáveis
-   X,FLAG: LOGICO     // variáveis de controle
-   opcao: Inteiro    // Opção de escolha
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
+   X,FLAG: LOGICO     // variÃ¡veis de controle
+   opcao: Inteiro    // OpÃ§Ã£o de escolha
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
 X := VERDADEIRO
 FLAG <- X
-ENQUANTO FLAG FAÇA
+ENQUANTO FLAG FAÃ‡A
    X := VERDADEIRO
    MUDACOR("Amarelo","FRENTE")
    limpatela
@@ -25,13 +25,13 @@ ENQUANTO FLAG FAÇA
    Caso 10 ATE 13
       ESCREVAL("Suficiente")
       
-   Caso 14 ATÉ 17
+   Caso 14 ATÃ‰ 17
       ESCREVAL("Bom")
    Caso 18 ATE 20
       ESCREVAL("Muito Bom")
-      FLAG := FALSO   // muda a variável do controle para encerrar o loop
-   OUTROCASO      // caso a variável tenha algum valor acima de 5 ou abaixo de 1
-      Escreval("Opção inválida")
+      FLAG := FALSO   // muda a variÃ¡vel do controle para encerrar o loop
+   OUTROCASO      // caso a variÃ¡vel tenha algum valor acima de 5 ou abaixo de 1
+      Escreval("OpÃ§Ã£o invÃ¡lida")
    Fimescolha
    
    Escreva("tecle <enter>")
