@@ -1,5 +1,5 @@
 Algoritmo "AMP"
-// Autor(a)    : Diogo Remelgado
+// Autor(a)    : Carlos Neiva
 // Data atual  : 29/09/2017
 Var
 temp1, temp2, temp3, temp4, maior, menor,mm1,mm2,m1,m2,amp:real
@@ -37,5 +37,5 @@ senao
 menor <- mm2
 fimse
 amp <- maior - menor
-escreva("A Amplitude Termica é", amp)
+escreva("A Amplitude Termica Ã©", amp)
 Fimalgoritmo
